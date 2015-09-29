@@ -3,6 +3,7 @@
 #define STRINGIFY_(x_) #x_
 #define STRINGIFY(x_) STRINGIFY_(x_)
 
+//OK
 namespace edm {
   std::string getReleaseVersion() {
     static std::string const releaseVersion(STRINGIFY(PROJECT_VERSION));
